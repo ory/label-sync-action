@@ -1,6 +1,9 @@
 name: 'Sync Labels from Configuration'
 description: 'Synchronizes labels from the given configuration file'
 inputs:
+  GITHUB_TOKEN:
+    description: 'The GitHub Token'
+    required: true
   config:  # id of input
     description: 'Path to config file for additional labels'
     required: false
