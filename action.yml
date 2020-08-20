@@ -1,0 +1,18 @@
+name: 'Sync Labels from Configuration'
+description: 'Synchronizes labels from the given configuration file'
+inputs:
+  config:  # id of input
+    description: 'Path to config file for additional labels'
+    required: false
+    default: '.github/labels.json'
+  dry:
+    description: Whether to perform a dry run, only making safe "read" requests to the GitHub API. If true, label changes will not be executed on GitHub. If false, label changes will be executed.
+    required: false
+    default: 'true'
+  forced:
+    description: If true will remove any labels not configured in the config file.
+    required: false
+    default: 'false'
+runs:
+  using: 'node12'
+  main: 'index.js'

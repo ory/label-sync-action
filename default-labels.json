@@ -1,0 +1,107 @@
+[
+  {
+    "name": "bug",
+    "color": "F44336",
+    "description": "Something is not working."
+  },
+  {
+    "name": "feat",
+    "color": "2979FF",
+    "description": "New feature or request.",
+    "aliases": [
+      "enhancement",
+      "request",
+      "proposal"
+    ]
+  },
+  {
+    "name": "response pending",
+    "color": "B3CFFF",
+    "description": "Feedback from one or more authors is required to proceed.",
+    "aliases": [
+      "stale",
+      "response-pending",
+      "await feedback"
+    ]
+  },
+  {
+    "name": "blocking",
+    "color": "FF2929",
+    "description": "Blocks milestones or other issues or pulls.",
+    "aliases": ["blocker"]
+  },
+  {
+    "name": "breaking change",
+    "color": "FF4F29",
+    "description": "Changes behavior in a breaking manner.",
+    "aliases": [
+      "breaking-change"
+    ]
+  },
+  {
+    "name": "good first issue",
+    "color": "8BDC8E",
+    "description": "A good issue to tackle when being a novice to the project.",
+    "aliases": [
+      "good-first-issue"
+    ]
+  },
+  {
+    "name": "docs",
+    "color": "FFB41F",
+    "description": "Affects documentation.",
+    "aliases": [
+      "documentation",
+      "module:docs"
+    ]
+  },
+  {
+    "name": "ci",
+    "color": "FFE91F",
+    "description": "Affects Continuous Integration (CI)."
+  },
+  {
+    "name": "rfc",
+    "color": "29CCFF",
+    "description": "A request for comments to discuss and share ideas.",
+    "aliases": [
+      "idea",
+      "discuss"
+    ]
+  },
+  {
+    "name": "help wanted",
+    "color": "43A047",
+    "description": "We are looking for help on this one.",
+    "aliases": [
+      "help-wanted",
+      "up for grabs",
+      "up for grab"
+    ]
+  },
+  {
+    "name": "tests",
+    "color": "FB8200",
+    "description": "Affects tests.",
+    "aliases": [
+    ]
+  },
+  {
+    "name": "upstream",
+    "color": "FF38A4",
+    "description": "Issue is caused by an upstream dependency."
+  },
+  {
+    "name": "needs more info",
+    "color": "5CB1FF",
+    "description": "Issue needs more information and will be closed on inactivity.",
+    "aliases": [
+      "needs-context"
+    ]
+  },
+  {
+    "name": "corp/next",
+    "description": "Next up at Ory Corp.",
+    "color": "6274F3"
+  }
+]
