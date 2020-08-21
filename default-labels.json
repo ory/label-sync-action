@@ -15,11 +15,11 @@
     ]
   },
   {
-    "name": "response pending",
+    "name": "stale",
     "color": "B3CFFF",
     "description": "Feedback from one or more authors is required to proceed.",
     "aliases": [
-      "stale",
+      "response pending",
       "response-pending",
       "await feedback"
     ]
