@@ -92,12 +92,18 @@
     "description": "Issue is caused by an upstream dependency."
   },
   {
-    "name": "needs more info",
+    "name": "pending reply",
     "color": "5CB1FF",
-    "description": "Issue needs more information and will be closed on inactivity.",
+    "description": "Awaiting reply of author or contributor. Issue will be closed on inactivity.",
     "aliases": [
-      "needs-context"
+      "needs-context",
+      "needs-more-info"
     ]
+  },
+  {
+    "name": "no-close",
+    "color": "DFDFDF",
+    "description": "Do not close this."
   },
   {
     "name": "corp/next",
