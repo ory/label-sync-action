@@ -80,6 +80,16 @@
     ]
   },
   {
+    "name": "onboarding",
+    "color": "43A047",
+    "description": "Good issue to onboard new Ory team members.",
+    "aliases": [
+      "help-wanted",
+      "up for grabs",
+      "up for grab"
+    ]
+  },
+  {
     "name": "tests",
     "color": "FB8200",
     "description": "Affects tests.",
