@@ -15,6 +15,34 @@
     ]
   },
   {
+    "name": "effort/mini",
+    "color": "1D76DB",
+    "description": "It will probably need less than an hour to solve this problem.",
+    "aliases": [
+    ]
+  },
+  {
+    "name": "effort/small",
+    "color": "1D76DB",
+    "description": "It will probably need less than a day to solve this problem.",
+    "aliases": [
+    ]
+  },
+  {
+    "name": "effort/medium",
+    "color": "1D76DB",
+    "description": "It will probably need about a week or two to solve this problem.",
+    "aliases": [
+    ]
+  },
+  {
+    "name": "effort/huge",
+    "color": "1D76DB",
+    "description": "It will probably need a month or more to solve this problem.",
+    "aliases": [
+    ]
+  },
+  {
     "name": "stale",
     "color": "B3CFFF",
     "description": "Feedback from one or more authors is required to proceed.",
@@ -43,22 +71,9 @@
     "color": "8BDC8E",
     "description": "A good issue to tackle when being a novice to the project.",
     "aliases": [
-      "good-first-issue"
+      "good-first-issue",
+      "onboarding"
     ]
-  },
-  {
-    "name": "docs",
-    "color": "FFB41F",
-    "description": "Affects documentation.",
-    "aliases": [
-      "documentation",
-      "module:docs"
-    ]
-  },
-  {
-    "name": "ci",
-    "color": "FFE91F",
-    "description": "Affects Continuous Integration (CI)."
   },
   {
     "name": "rfc",
@@ -81,16 +96,6 @@
     "name": "help wanted",
     "color": "43A047",
     "description": "We are looking for help on this one.",
-    "aliases": [
-      "help-wanted",
-      "up for grabs",
-      "up for grab"
-    ]
-  },
-  {
-    "name": "onboarding",
-    "color": "43A047",
-    "description": "Good issue to onboard new Ory team members.",
     "aliases": [
       "help-wanted",
       "up for grabs",
@@ -124,8 +129,94 @@
     "description": "Do not close this."
   },
   {
-    "name": "corp/next",
-    "description": "Next up at Ory Corp.",
-    "color": "6274F3"
+    "name": "cloud",
+    "color": "5A4C7B",
+    "description": "This issue is relevant for Ory Cloud.",
+    "aliases": [
+      "corp/m1",
+      "corp/m2",
+      "corp/m3",
+      "corp/m4",
+      "corp/m5",
+      "corp/m6",
+      "corp/m7",
+      "corp/m8",
+      "corp/m9",
+      "corp/m10",
+      "corp/m11",
+      "corp/next",
+      "needs-more-info"
+    ]
+  },
+  {
+    "name": "on premise",
+    "color": "3B2D48",
+    "description": "This issue is relevant for running the project on premise."
+  },
+  {
+    "name": "area/identity",
+    "color": "7169D5",
+    "description": "This issue affects Ory's identity services."
+  },
+  {
+    "name": "area/permission",
+    "color": "7169D5",
+    "description": "This issue affects Ory's permission services."
+  },
+  {
+    "name": "area/oauth2",
+    "color": "7169D5",
+    "description": "This issue affects Ory's OAuth2 and OpenID Connect services."
+  },
+  {
+    "name": "area/compliance",
+    "color": "7169D5",
+    "description": "This issue affects Ory's compliance services."
+  },
+  {
+    "name": "area/zero-trust",
+    "color": "7169D5",
+    "description": "This issue affects Ory's Zero Trust services."
+  },
+  {
+    "name": "area/sdk",
+    "color": "7169D5",
+    "description": "This issue affects Ory's SDKs."
+  },
+  {
+    "name": "area/cli",
+    "color": "7169D5",
+    "description": "This issue affects Ory's CLI."
+  },
+  {
+    "name": "area/tooling",
+    "color": "7169D5",
+    "description": "This issue affects Ory's tooling."
+  },
+  {
+    "name": "area/docs",
+    "color": "7169D5",
+    "description": "This issue affects Ory's documentation.",
+    "alias": [
+      "docs",
+      "documentation",
+      "module:docs"
+    ]
+  },
+  {
+    "name": "area/ci",
+    "color": "7169D5",
+    "description": "This issue affects Ory's CI.",
+    "alias": [
+      "ci"
+    ]
+  },
+  {
+    "name": "area/web",
+    "color": "7169D5",
+    "description": "This issue affects Ory's web presence.",
+    "alias": [
+      "ci"
+    ]
   }
 ]
