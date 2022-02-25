@@ -59,6 +59,10 @@
     "aliases": ["blocker"]
   },
   {
+    "name": "interview assignment",
+    "color": "0E6966"
+  },
+  {
     "name": "breaking change",
     "color": "FF4F29",
     "description": "Changes behavior in a breaking manner.",
