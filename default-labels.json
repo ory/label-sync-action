@@ -59,8 +59,8 @@
     "aliases": ["blocker"]
   },
   {
-    "name": "interview assignment",
-    "color": "0E6966"
+    "name": "taken",
+    "color": "0e5167"
   },
   {
     "name": "breaking change",
