@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "format": "prettier --write '{src/*.ts,*.md,*.js}'",
-    "format:check": "prettier --check '{src/*.ts,*.md,*.js}'"
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "prettier": "ory-prettier-styles",
   "repository": {
