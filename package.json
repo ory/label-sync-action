@@ -2,23 +2,23 @@
   "name": "label-sync-action",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/ory/label-sync-action#readme",
+  "bugs": {
+    "url": "https://github.com/ory/label-sync-action/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ory/label-sync-action.git"
+  },
+  "license": "ISC",
+  "author": "",
   "main": "index.js",
   "scripts": {
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
   "prettier": "ory-prettier-styles",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ory/label-sync-action.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ory/label-sync-action/issues"
-  },
-  "homepage": "https://github.com/ory/label-sync-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.4",
     "@actions/github": "^4.0.0",
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "ory-prettier-styles": "1.3.0",
-    "prettier": "2.7.1"
+    "prettier": "^2.7.1",
+    "prettier-plugin-packagejson": "^2.2.18"
   }
 }

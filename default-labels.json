@@ -8,49 +8,37 @@
     "name": "feat",
     "color": "2979FF",
     "description": "New feature or request.",
-    "aliases": [
-      "enhancement",
-      "request",
-      "proposal"
-    ]
+    "aliases": ["enhancement", "request", "proposal"]
   },
   {
     "name": "effort/mini",
     "color": "1D76DB",
     "description": "It will probably need less than an hour to solve this problem.",
-    "aliases": [
-    ]
+    "aliases": []
   },
   {
     "name": "effort/small",
     "color": "1D76DB",
     "description": "It will probably need less than a day to solve this problem.",
-    "aliases": [
-    ]
+    "aliases": []
   },
   {
     "name": "effort/medium",
     "color": "1D76DB",
     "description": "It will probably need about a week or two to solve this problem.",
-    "aliases": [
-    ]
+    "aliases": []
   },
   {
     "name": "effort/huge",
     "color": "1D76DB",
     "description": "It will probably need a month or more to solve this problem.",
-    "aliases": [
-    ]
+    "aliases": []
   },
   {
     "name": "stale",
     "color": "B3CFFF",
     "description": "Feedback from one or more authors is required to proceed.",
-    "aliases": [
-      "response pending",
-      "response-pending",
-      "await feedback"
-    ]
+    "aliases": ["response pending", "response-pending", "await feedback"]
   },
   {
     "name": "blocking",
@@ -66,52 +54,37 @@
     "name": "breaking change",
     "color": "FF4F29",
     "description": "Changes behavior in a breaking manner.",
-    "aliases": [
-      "breaking-change"
-    ]
+    "aliases": ["breaking-change"]
   },
   {
     "name": "good first issue",
     "color": "8BDC8E",
     "description": "A good issue to tackle when being a novice to the project.",
-    "aliases": [
-      "good-first-issue",
-      "onboarding"
-    ]
+    "aliases": ["good-first-issue", "onboarding"]
   },
   {
     "name": "rfc",
     "color": "29CCFF",
     "description": "A request for comments to discuss and share ideas.",
-    "aliases": [
-      "idea",
-      "discuss"
-    ]
+    "aliases": ["idea", "discuss"]
   },
   {
     "name": "invalid",
     "color": "f2f2f2",
     "description": "The request is invalid or spam.",
-    "aliases": [
-      "spam"
-    ]
+    "aliases": ["spam"]
   },
   {
     "name": "help wanted",
     "color": "43A047",
     "description": "We are looking for help on this one.",
-    "aliases": [
-      "help-wanted",
-      "up for grabs",
-      "up for grab"
-    ]
+    "aliases": ["help-wanted", "up for grabs", "up for grab"]
   },
   {
     "name": "tests",
     "color": "FB8200",
     "description": "Affects tests.",
-    "aliases": [
-    ]
+    "aliases": []
   },
   {
     "name": "upstream",
@@ -122,10 +95,7 @@
     "name": "pending reply",
     "color": "5CB1FF",
     "description": "Awaiting reply of author or contributor. Issue will be closed on inactivity.",
-    "aliases": [
-      "needs-context",
-      "needs-more-info"
-    ]
+    "aliases": ["needs-context", "needs-more-info"]
   },
   {
     "name": "no-close",
@@ -201,26 +171,18 @@
     "name": "area/docs",
     "color": "7169D5",
     "description": "This issue affects Ory's documentation.",
-    "alias": [
-      "docs",
-      "documentation",
-      "module:docs"
-    ]
+    "alias": ["docs", "documentation", "module:docs"]
   },
   {
     "name": "area/ci",
     "color": "7169D5",
     "description": "This issue affects Ory's CI.",
-    "alias": [
-      "ci"
-    ]
+    "alias": ["ci"]
   },
   {
     "name": "area/web",
     "color": "7169D5",
     "description": "This issue affects Ory's web presence.",
-    "alias": [
-      "ci"
-    ]
+    "alias": ["ci"]
   }
 ]
