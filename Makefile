@@ -1,4 +1,4 @@
-format: node_modules   # formats the source code
+format: .bin/ory node_modules   # formats the source code
 	.bin/ory dev headers license
 	npm exec -- prettier --write .
 
