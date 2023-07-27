@@ -11,6 +11,11 @@
     "aliases": ["enhancement", "request", "proposal"]
   },
   {
+    "name": "improvement",
+    "color": "2979FF",
+    "description": "Minor improvement.",
+  },
+  {
     "name": "effort/mini",
     "color": "1D76DB",
     "description": "It will probably need less than an hour to solve this problem.",
@@ -103,31 +108,6 @@
     "description": "Do not close this."
   },
   {
-    "name": "cloud",
-    "color": "5A4C7B",
-    "description": "This issue is relevant for Ory Cloud.",
-    "aliases": [
-      "corp/m1",
-      "corp/m2",
-      "corp/m3",
-      "corp/m4",
-      "corp/m5",
-      "corp/m6",
-      "corp/m7",
-      "corp/m8",
-      "corp/m9",
-      "corp/m10",
-      "corp/m11",
-      "corp/next",
-      "needs-more-info"
-    ]
-  },
-  {
-    "name": "on premise",
-    "color": "3B2D48",
-    "description": "This issue is relevant for running the project on premise."
-  },
-  {
     "name": "area/identity",
     "color": "7169D5",
     "description": "This issue affects Ory's identity services."
@@ -177,12 +157,6 @@
     "name": "area/ci",
     "color": "7169D5",
     "description": "This issue affects Ory's CI.",
-    "alias": ["ci"]
-  },
-  {
-    "name": "area/web",
-    "color": "7169D5",
-    "description": "This issue affects Ory's web presence.",
     "alias": ["ci"]
   }
 ]
