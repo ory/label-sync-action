@@ -22,4 +22,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           dry: false
           forced: true
+          no-default-labels: true
 ```

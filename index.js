@@ -9,7 +9,7 @@ const sync = require("github-label-sync")
 const token = core.getInput("GITHUB_TOKEN") || process.env.GITHUB_TOKEN
 const dry = core.getInput("dry") !== "false"
 const forced = core.getInput("forced") === "true"
-const noDefaultLables = core.getInput("no_default_labels") === "true"
+const noDefaultLables = core.getInput("no-default-labels") === "true"
 const { repo, owner } = github.context.repo
 
 const labels = noDefaultLables ? [] : require("./default-labels.json")

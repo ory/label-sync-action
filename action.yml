@@ -20,6 +20,11 @@ inputs:
       If true will remove any labels not configured in the config file.
     required: false
     default: "false"
+  no-default-labels:
+    description:
+      If true will discard the default labels included in this action.
+    required: false
+    default: "false"
 runs:
   using: "node12"
   main: "index.js"
