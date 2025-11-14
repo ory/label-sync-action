@@ -1,4 +1,4 @@
-// Copyright © 2023 Ory Corp
+// Copyright © 2025 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
 const github = require("@actions/github")
@@ -9,9 +9,10 @@ const sync = require("github-label-sync")
 const token = core.getInput("GITHUB_TOKEN") || process.env.GITHUB_TOKEN
 const dry = core.getInput("dry") !== "false"
 const forced = core.getInput("forced") === "true"
+const noDefaultLables = core.getInput("no-default-labels") === "true"
 const { repo, owner } = github.context.repo
 
-const labels = require("./default-labels.json")
+const labels = noDefaultLables ? [] : require("./default-labels.json")
 
 let config = core.getInput("config") || ".github/labels.json"
 
