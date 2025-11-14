@@ -1,45 +1,5 @@
 [
   {
-    "name": "bug",
-    "color": "F44336",
-    "description": "Something is not working."
-  },
-  {
-    "name": "feat",
-    "color": "2979FF",
-    "description": "New feature or request.",
-    "aliases": ["enhancement", "request", "proposal"]
-  },
-  {
-    "name": "improvement",
-    "color": "2979FF",
-    "description": "Minor improvement."
-  },
-  {
-    "name": "effort/mini",
-    "color": "1D76DB",
-    "description": "It will probably need less than an hour to solve this problem.",
-    "aliases": []
-  },
-  {
-    "name": "effort/small",
-    "color": "1D76DB",
-    "description": "It will probably need less than a day to solve this problem.",
-    "aliases": []
-  },
-  {
-    "name": "effort/medium",
-    "color": "1D76DB",
-    "description": "It will probably need about a week or two to solve this problem.",
-    "aliases": []
-  },
-  {
-    "name": "effort/huge",
-    "color": "1D76DB",
-    "description": "It will probably need a month or more to solve this problem.",
-    "aliases": []
-  },
-  {
     "name": "stale",
     "color": "B3CFFF",
     "description": "Feedback from one or more authors is required to proceed.",
@@ -52,49 +12,15 @@
     "aliases": ["blocker"]
   },
   {
-    "name": "taken",
-    "color": "0e5167"
-  },
-  {
-    "name": "breaking change",
-    "color": "FF4F29",
-    "description": "Changes behavior in a breaking manner.",
-    "aliases": ["breaking-change"]
+    "name": "contribution",
+    "color": "0e8a16",
+    "description": "This contribution is considered for being merged."
   },
   {
     "name": "good first issue",
     "color": "8BDC8E",
     "description": "A good issue to tackle when being a novice to the project.",
     "aliases": ["good-first-issue", "onboarding"]
-  },
-  {
-    "name": "rfc",
-    "color": "29CCFF",
-    "description": "A request for comments to discuss and share ideas.",
-    "aliases": ["idea", "discuss"]
-  },
-  {
-    "name": "invalid",
-    "color": "f2f2f2",
-    "description": "The request is invalid or spam.",
-    "aliases": ["spam"]
-  },
-  {
-    "name": "help wanted",
-    "color": "43A047",
-    "description": "We are looking for help on this one.",
-    "aliases": ["help-wanted", "up for grabs", "up for grab"]
-  },
-  {
-    "name": "tests",
-    "color": "FB8200",
-    "description": "Affects tests.",
-    "aliases": []
-  },
-  {
-    "name": "upstream",
-    "color": "FF38A4",
-    "description": "Issue is caused by an upstream dependency."
   },
   {
     "name": "pending reply",
@@ -107,56 +33,4 @@
     "color": "DFDFDF",
     "description": "Do not close this."
   },
-  {
-    "name": "area/identity",
-    "color": "7169D5",
-    "description": "This issue affects Ory's identity services."
-  },
-  {
-    "name": "area/permission",
-    "color": "7169D5",
-    "description": "This issue affects Ory's permission services."
-  },
-  {
-    "name": "area/oauth2",
-    "color": "7169D5",
-    "description": "This issue affects Ory's OAuth2 and OpenID Connect services."
-  },
-  {
-    "name": "area/compliance",
-    "color": "7169D5",
-    "description": "This issue affects Ory's compliance services."
-  },
-  {
-    "name": "area/zero-trust",
-    "color": "7169D5",
-    "description": "This issue affects Ory's Zero Trust services."
-  },
-  {
-    "name": "area/sdk",
-    "color": "7169D5",
-    "description": "This issue affects Ory's SDKs."
-  },
-  {
-    "name": "area/cli",
-    "color": "7169D5",
-    "description": "This issue affects Ory's CLI."
-  },
-  {
-    "name": "area/tooling",
-    "color": "7169D5",
-    "description": "This issue affects Ory's tooling."
-  },
-  {
-    "name": "area/docs",
-    "color": "7169D5",
-    "description": "This issue affects Ory's documentation.",
-    "alias": ["docs", "documentation", "module:docs"]
-  },
-  {
-    "name": "area/ci",
-    "color": "7169D5",
-    "description": "This issue affects Ory's CI.",
-    "alias": ["ci"]
-  }
 ]
